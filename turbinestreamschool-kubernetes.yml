@@ -3,8 +3,8 @@ spring:
     stream:
       kafka:
         binder:
-          brokers: kafka
-          zkNodes: zookeeper
+          brokers: 192.168.99.1
+          zkNodes: 192.168.99.1
 
 eureka:
   client:
